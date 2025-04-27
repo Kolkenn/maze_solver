@@ -205,7 +205,7 @@ Project Link: [https://github.com/Kolkenn/maze_solver](https://github.com/Kolken
 [contributors-shield]: https://img.shields.io/github/contributors/Kolkenn/maze_solver.svg?style=for-the-badge
 [contributors-url]: https://github.com/Kolkenn/maze_solver/graphs/contributors
 [license-shield]: https://img.shields.io/github/license/Kolkenn/maze_solver.svg?style=for-the-badge
-[license-url]: https://github.com/Kolkenn/maze_solver/blob/master/LICENSE.txt
+[license-url]: https://github.com/Kolkenn/maze_solver/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/leonel-ponce-862391214
 [Python.py]: https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff
