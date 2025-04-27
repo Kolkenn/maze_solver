@@ -19,20 +19,8 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
 [![project_license][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/Kolkenn/maze_solver">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
 <h3 align="center">Maze Solver</h3>
 
@@ -41,12 +29,6 @@
     <br />
     <a href="https://github.com/Kolkenn/maze_solver"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/Kolkenn/maze_solver">View Demo</a>
-    &middot;
-    <a href="https://github.com/Kolkenn/maze_solver/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    &middot;
-    <a href="https://github.com/Kolkenn/maze_solver/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -222,16 +204,9 @@ Project Link: [https://github.com/Kolkenn/maze_solver](https://github.com/Kolken
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/Kolkenn/maze_solver.svg?style=for-the-badge
 [contributors-url]: https://github.com/Kolkenn/maze_solver/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Kolkenn/maze_solver.svg?style=for-the-badge
-[forks-url]: https://github.com/Kolkenn/maze_solver/network/members
-[stars-shield]: https://img.shields.io/github/stars/Kolkenn/maze_solver.svg?style=for-the-badge
-[stars-url]: https://github.com/Kolkenn/maze_solver/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Kolkenn/maze_solver.svg?style=for-the-badge
-[issues-url]: https://github.com/Kolkenn/maze_solver/issues
 [license-shield]: https://img.shields.io/github/license/Kolkenn/maze_solver.svg?style=for-the-badge
 [license-url]: https://github.com/Kolkenn/maze_solver/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/leonel-ponce-862391214
-[product-screenshot]: images/screenshot.png
 [Python.py]: https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff
 [Python-url]: https://www.python.org/
