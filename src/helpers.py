@@ -12,7 +12,7 @@ class Line():
         canvas.create_line(self.point1.x,self.point1.y,self.point2.x,self.point2.y,fill=fill_color,width=2)
 
 class Cell():
-    def __init__(self,x1,x2,y1,y2,window):
+    def __init__(self,x1,y1,x2,y2,window):
         self.has_left_wall = True
         self.has_right_wall = True
         self.has_top_wall = True
@@ -22,7 +22,7 @@ class Cell():
         self._x2 = x2
         self._y1 = y1
         self._y2 = y2
-        self._top_left_point, self._top_right_point, self._bottom_left_point,self._bottom_right_point = Point(x1,y1), Point(x1,y2), Point(x2,y1), Point(x2,y2)
+        self._top_left_point, self._top_right_point, self._bottom_left_point,self._bottom_right_point = Point(x1,y1), Point(x2,y1), Point(x1,y2), Point(x2,y2)
         self._win = window
 
     def draw(self):

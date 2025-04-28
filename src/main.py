@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
- 
 
 import random
 
@@ -27,12 +26,11 @@ def main():
 
     #     print(f"{x1},{y1} | {x2},{y2}")
     #     Cell(x1,x2,y1,y2,win).draw()
-    
-    cell1 = Cell(133,104,493,308,win)
-    cell1.has_bottom_wall = False
-    cell1.draw()
-    cell2 = Cell(157,194,500,392,win)
-    cell2.draw()
+
+
+    cell = Cell(50,50,250,250,win)
+    cell.has_bottom_wall=False
+    cell.draw()
 
 
     win.wait_for_close()
