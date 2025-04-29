@@ -28,10 +28,13 @@ def main():
     #     Cell(x1,x2,y1,y2,win).draw()
 
 
-    cell = Cell(50,50,250,250,win)
-    cell.has_bottom_wall=False
-    cell.draw()
+    cell1 = Cell(50,50,250,250,win)
+    cell1.draw()
 
+    cell2 = Cell(300,50,500,250,win)
+    cell2.draw()
+
+    cell1.draw_move(cell2,undo=True)
 
     win.wait_for_close()
 
