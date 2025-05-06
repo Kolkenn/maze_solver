@@ -2,9 +2,10 @@
 
 import random
 
-from window import *
-from maze import *
-from helpers import Cell
+# Relative Imports to ensure file uses local modules.
+from .window import *
+from .maze import *
+from .helpers import Cell
 
 def main():
     resolution_width,resolution_length = 1000,500
@@ -14,4 +15,5 @@ def main():
 
     win.wait_for_close()
 
-main()
+if __name__ == '__main__':
+    main()

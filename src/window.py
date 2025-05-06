@@ -1,6 +1,6 @@
 
 from tkinter import Tk, BOTH, Canvas
-from helpers import *
+from .helpers import *
 
 class Window():
     def __init__(self,width,height):
