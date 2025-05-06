@@ -2,6 +2,9 @@ class Point():
     def __init__(self,x,y):
         self.x = x
         self.y = y
+    
+    def __repr__(self):
+        return f"Point at ({self.x},{self.y})"
 
 class Line():
     def __init__(self,point1,point2):
@@ -19,8 +22,8 @@ class Cell():
         self.has_bottom_wall = True
 
         self._x1 = x1
-        self._x2 = x2
         self._y1 = y1
+        self._x2 = x2
         self._y2 = y2
         self._top_left_point, self._top_right_point, self._bottom_left_point,self._bottom_right_point = Point(x1,y1), Point(x2,y1), Point(x1,y2), Point(x2,y2)
         self._win = window
