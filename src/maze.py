@@ -38,12 +38,25 @@ class Maze():
                     )
                 self._cells[i].append(cell)
                 self._draw_cell(i, j)
-
+        self._break_entrance_and_exit()
 
     def _draw_cell(self,i,j):
+        if not self._win:
+            return
         self._cells[i][j].draw()
         self._animate()
 
     def _animate(self):
         self._win.redraw()
         time.sleep(0.05)
+
+    def _break_entrance_and_exit(self):
+        # Top Left Cell
+        self._cells[0][0].has_top_wall = False
+        self._draw_cell(0,0)
+
+        # Bottom Right Cell
+        column = self._num_cols-1
+        row = self._num_rows-1
+        self._cells[column][row].has_bottom_wall = False
+        self._draw_cell(column,row)

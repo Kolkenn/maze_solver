@@ -29,14 +29,25 @@ class Cell():
         self._win = window
 
     def draw(self):
-        if self.has_left_wall:
-            self._win.draw_line(Line(self._top_left_point,self._bottom_left_point),'black')
-        if self.has_right_wall:
-            self._win.draw_line(Line(self._top_right_point,self._bottom_right_point),'black')
-        if self.has_top_wall:
-            self._win.draw_line(Line(self._top_left_point,self._top_right_point),'black')
-        if self.has_bottom_wall:
-            self._win.draw_line(Line(self._bottom_left_point,self._bottom_right_point),'black')
+        # If no window is provided, nothing to draw return.
+        if not self._win:
+            return
+        # Colors for showing and hiding lines.
+        show_line_color = 'black'
+        hide_line_color = 'white'
+        
+        # Left Wall Portion
+        correct_color = show_line_color if self.has_left_wall else hide_line_color
+        self._win.draw_line(Line(self._top_left_point,self._bottom_left_point),correct_color)
+        # Right Wall Portion
+        correct_color = show_line_color if self.has_right_wall else hide_line_color
+        self._win.draw_line(Line(self._top_right_point,self._bottom_right_point),correct_color)
+        # Top Wall Portion
+        correct_color = show_line_color if self.has_top_wall else hide_line_color
+        self._win.draw_line(Line(self._top_left_point,self._top_right_point),correct_color)
+        # Bottom Wall Portion
+        correct_color = show_line_color if self.has_bottom_wall else hide_line_color
+        self._win.draw_line(Line(self._bottom_left_point,self._bottom_right_point),correct_color)
 
     def draw_move(self,to_cell,undo=False):
         if undo:
